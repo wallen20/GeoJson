@@ -5,24 +5,54 @@
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[[-87.3593, 35.0019], [-85.6067, 35.0019], [-85.6067, 36.6781], [-87.3593, 36.6781], [-87.3593, 35.0019]]]
+        "coordinates": [
+          [[-94.0416, 36.5019], [-89.6475, 36.5019], [-89.6475, 33.0041], [-94.0416, 33.0041], [-94.0416, 36.5019]]
+        ]
       },
       "properties": {
-        "region": "Southeast",
-        "color": "#FF5733"  // Set the color for this region
+        "region": "Central",
+        "color": "#FFCC00"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
-        "coordinates": [[[-90.5, 41.5], [-87.5, 41.5], [-87.5, 45.0], [-90.5, 45.0], [-90.5, 41.5]]]
+        "coordinates": [
+          [[-80.518, 35.2015], [-75.809, 35.2015], [-75.809, 24.396308], [-80.518, 24.396308], [-80.518, 35.2015]]
+        ]
+      },
+      "properties": {
+        "region": "Southeast",
+        "color": "#FF5733"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[-125.0, 41.0], [-112.0, 41.0], [-112.0, 32.0], [-125.0, 32.0], [-125.0, 41.0]]
+        ]
+      },
+      "properties": {
+        "region": "West",
+        "color": "#3366FF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[-99.9018, 41.5014], [-90.2102, 41.5014], [-90.2102, 36.5019], [-99.9018, 36.5019], [-99.9018, 41.5014]]
+        ]
       },
       "properties": {
         "region": "North",
-        "color": "#33FF57"  // Set the color for this region
+        "color": "#33FF57"
       }
-    },
+    }
     // Add more features for other regions
   ]
 }
