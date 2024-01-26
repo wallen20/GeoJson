@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-87.3593, 35.0019], [-85.6067, 35.0019], [-85.6067, 36.6781], [-87.3593, 36.6781], [-87.3593, 35.0019]]]
+      },
+      "properties": {
+        "region": "Southeast",
+        "color": "#FF5733"  // Set the color for this region
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-90.5, 41.5], [-87.5, 41.5], [-87.5, 45.0], [-90.5, 45.0], [-90.5, 41.5]]]
+      },
+      "properties": {
+        "region": "North",
+        "color": "#33FF57"  // Set the color for this region
+      }
+    },
+    // Add more features for other regions
+  ]
+}
